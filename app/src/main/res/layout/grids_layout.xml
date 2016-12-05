@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.percent.PercentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#222">
+
+        <android.support.percent.PercentFrameLayout
+            android:layout_width="match_parent"
+            app:layout_heightPercent="73%">
+
+        <android.support.v7.widget.GridLayout
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#222"
+            android:id="@+id/grid_locks"
+            app:orientation="horizontal"
+            app:columnCount="3">
+        </android.support.v7.widget.GridLayout>
+        </android.support.percent.PercentFrameLayout>
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            app:layout_heightPercent="27%"
+            android:layout_gravity="bottom"
+            android:background="#444"
+            android:id="@+id/grid_keys"
+            android:padding="4dp"
+            app:columnCount="6"
+            app:orientation="horizontal">
+        </android.support.v7.widget.GridLayout>
+
+    </android.support.percent.PercentFrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_pair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_menu_forward"/>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="73"
+        android:background="#222"
+        android:id="@+id/grid_locks"
+        app:orientation="horizontal"
+        app:columnCount="3">
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="27"
+        android:background="#444"
+        android:id="@+id/grid_keys"
+        android:padding="4dp"
+        app:columnCount="5"
+        app:orientation="horizontal">
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_pair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_menu_forward"/>
+</LinearLayout>

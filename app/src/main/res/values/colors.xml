@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f5f5f5</color>
+    <color name="colorPrimaryDark">#e0e0e0</color>
+    <color name="colorAccent">#f2f1ef</color>
+    <color name="colorBGround">#e6e4e0</color>
+
+    <color name="color_menu_play">#ff9900</color>
+    <color name="color_menu_settings">#ff9933</color>
+    <color name="color_menu_about">#ff6633</color>
+
+    <color name="c1">#856954</color>
+    <color name="c2">#89a132</color>
+    <color name="c3">#e0c345</color>
+    <color name="c4">#b79e5e</color>
+    <color name="c5">#475592</color>
+    <color name="c6">#e68835</color>
+    <color name="c7">#6cebcb</color>
+    <color name="c8">#ebb3b3</color>
+    <color name="c9">#8195e6</color>
+    <color name="c10">#999999</color>
+    <color name="c11">#fc3535</color>
+    <color name="c12">#aa76c4</color>
+    <color name="c13">#339966</color>
+    <color name="c14">#94da3e</color>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <array name="rainbow">
+        <item>@color/bright_pink</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </array>
+
+    <array name="anncolor">
+        <item>@color/c1</item>
+        <item>@color/c2</item>
+        <item>@color/c3</item>
+        <item>@color/c4</item>
+        <item>@color/c5</item>
+        <item>@color/c6</item>
+        <item>@color/c7</item>
+        <item>@color/c8</item>
+        <item>@color/c9</item>
+        <item>@color/c10</item>
+        <item>@color/c11</item>
+        <item>@color/c12</item>
+        <item>@color/c13</item>
+        <item>@color/c14</item>
+    </array>
+</resources>

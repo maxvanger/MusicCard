@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--<item name="android:buttonStyle">@style/ButtonKey</item>-->
+    </style>
+
+    <style name="ButtonKey" parent="android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/button_key_normal</item>
+    </style>
+
+    <style name="textScore">
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="textBig">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="game_menu">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

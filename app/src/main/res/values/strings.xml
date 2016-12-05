@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MusicMem</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_hint">Hint</string>
+    <string name="menu_replay">Replay</string>
+    <string name="menu_help">About</string>
+
+    <string-array name="board_sizes">
+        <item>2x3</item>
+        <item>2x4</item>
+        <item>3x4</item>
+        <item>4x5</item>
+        <item>5x6</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pickupsounds">pick up your sounds</string>
+    <string name="your_choice">Use your choice</string>
+    <string name="clear_all">clear all</string>
+
+    <string name="attempts">attempts: </string>
+    <string name="score">score: </string>
+    <string name="score_total">total: </string>
+
+    <string name="next">next</string>
+    <string name="replay">replay</string>
+
+    <string name="game_menu_play">Играть</string>
+    <string name="game_menu_settings">Настройки</string>
+    <string name="game_menu_about">F.A.Q.</string>
+</resources>

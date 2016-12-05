@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/start_frame">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gif_anim"
+        android:scaleType="fitXY"
+        android:src="@drawable/startmenubackground"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/logo2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="top|center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+            <TextView android:id="@+id/main_start"
+                  android:text="@string/game_menu_play"
+                  android:background="@drawable/start_menu_play"
+                  style="@style/game_menu"/>
+            <ImageView
+                android:layout_width="92dp"
+                android:layout_height="36dp"
+                android:layout_gravity="right|bottom"
+                android:src="@drawable/diz_flag1"/>
+        </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <TextView android:id="@+id/main_settings"
+                          android:text="@string/game_menu_settings"
+                          android:background="@drawable/start_menu_settings"
+                          style="@style/game_menu"/>
+                <ImageView
+                    android:layout_width="92dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="right|bottom"
+                    android:src="@drawable/diz_flag2"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <TextView android:id="@+id/main_about"
+                          android:text="@string/game_menu_about"
+                          android:background="@drawable/start_menu_about"
+                          style="@style/game_menu"/>
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="1dp"
+                    android:src="@drawable/diz_flag3"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

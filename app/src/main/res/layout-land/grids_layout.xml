@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal">
+
+    <android.support.percent.PercentFrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="73"
+        android:background="#222">
+        <android.support.v7.widget.GridLayout
+            android:layout_height="match_parent"
+            android:id="@+id/grid_locks"
+            android:gravity="center"
+            app:orientation="horizontal"
+            app:columnCount="3"
+            app:layout_aspectRatio="100%">
+        </android.support.v7.widget.GridLayout>
+    </android.support.percent.PercentFrameLayout>
+
+    <android.support.percent.PercentFrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="27"
+        android:background="#444">
+        <android.support.v7.widget.GridLayout
+            android:layout_height="match_parent"
+            android:id="@+id/grid_keys"
+            android:padding="4dp"
+            app:columnCount="2"
+            app:orientation="horizontal"
+            app:layout_aspectRatio="100%">
+        </android.support.v7.widget.GridLayout>
+    </android.support.percent.PercentFrameLayout>
+</LinearLayout>
